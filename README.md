@@ -4,21 +4,23 @@ Tested with bash.
 
 Copy the script into a $path directory if you wish.
 
-
-### Usage:
-./MTV.sh /path/to/file(s)
+### Prerequisites:
+- Install 'bc' for math operations ('sudo apt install bc' on debian based distros)
+- Install upsies ( https://github.com/plotski/upsies )
 
 ### Set-up
-Variables at the top of script:
+Variables at the top of the script:
 
-- announce_url - Fill in.
+- announce_url - Fill in. (Required)
 
-- Temp_path - Path for several writes. Everything is saved here.
+- Temp_path - Path for several writes. Everything is saved here. (Required)
 
 - Save_path - Copy the contents to a preferred directory (Blank if unused).
 
-- Auto_open_after - Open the 2 text files with your default editor once it's ready.
+- Auto_open_after - Open the 2 text files with your default editor once it's ready. (Optional)
 
+### Usage:
+./MTV.sh /path/to/file(s)
 
 ### Output
 Inside a directory named after the release contains: Final.txt, desc.txt, and the torrent file
@@ -31,3 +33,6 @@ Inside a directory named after the release contains: Final.txt, desc.txt, and th
   - Title
   - Tags
   - Poster Image url
+
+
+##### Disclaimer: Confirm your uploads are up to standards.
