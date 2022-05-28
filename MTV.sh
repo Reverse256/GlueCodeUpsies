@@ -64,7 +64,7 @@ perl -pi -w -e 's/\s/\./g' "${Temp_path}start.txt"
 perl -pi -w -e 's/x265/H.265/g' "${Temp_path}start.txt"
 
 #Change H.?264 to x264
-perl -pi -w -e 's/H.?264/x264/g' "${Temp_path}start.txt"
+#perl -pi -w -e 's/H.?264/x264/g' "${Temp_path}start.txt"
 
 #reinsert end of line
 perl -pi -w -e 's/\.$/\n/g' "${Temp_path}start.txt"
