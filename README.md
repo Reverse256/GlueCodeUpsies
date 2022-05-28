@@ -4,12 +4,17 @@ Tested with bash.
 
 Copy the script into a $path directory if you wish.
 
-### Prerequisites:
+### -Prerequisites:
 - Install 'bc' for math operations ('sudo apt install bc' on debian based distros)
 - Install upsies ( https://github.com/plotski/upsies )
 
-### Set-up
-Variables at the top of the script:
+
+### -Set-up
+- Add 'localhost bB' to the hosts file
+- configure upsies bB to have a random username & password
+
+
+##### Variables at the top of the script:
 
 - announce_url - Fill in. (Required)
 
@@ -19,10 +24,10 @@ Variables at the top of the script:
 
 - Auto_open_after - Open the 2 text files with your default editor once it's ready. (Optional)
 
-### Usage:
+### -Usage:
 ./MTV.sh /path/to/file(s)
 
-### Output
+### -Output
 Inside a directory named after the release contains: Final.txt, desc.txt, and the torrent file
 
 - desc.txt
