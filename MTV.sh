@@ -63,7 +63,7 @@ perl -pi -w -e 's/\s/\./g' "${Temp_path}start.txt"
 #Change x265 to H.265
 perl -pi -w -e 's/x265/H.265/g' "${Temp_path}start.txt"
 
-#Change H.?264 to x264
+#Change H.?264 to x264 (Edit: Keep whichever is in the current file/directory name. Do not force a change.)
 #perl -pi -w -e 's/H.?264/x264/g' "${Temp_path}start.txt"
 
 #reinsert end of line
